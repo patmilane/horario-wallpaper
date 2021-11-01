@@ -12,19 +12,19 @@
 
     if (hora >=0 && hora < 12){
 
-        img.src='3.png'
+        img.src='img/3.png'
         document.body.style.background = 'lightblue'
         msg2.innerHTML = `Bom dia!`
 
     } else if (hora >= 12 && hora < 18){
 
-        img.src='2.png'
+        img.src='img/2.png'
         document.body.style.background = '#4682B4'
         msg2.innerHTML += `Boa tarde!`
 
     
     } else {
-        img.src='1.png'
+        img.src='img/1.png'
         document.body.style.background = '#191970'
         msg2.innerHTML += `Boa noite!`
 
