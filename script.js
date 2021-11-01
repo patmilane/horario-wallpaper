@@ -2,7 +2,7 @@
  function carregar(){
 
     var msg =  document.getElementById('msg')
-    var img = document.getElementById('foto')
+    var img = document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
     var msg2 = document.getElementById('msg2')
